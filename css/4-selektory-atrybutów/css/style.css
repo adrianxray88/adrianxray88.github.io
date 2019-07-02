@@ -1,0 +1,30 @@
+[title] {
+    color: red;
+}
+
+/* tylko te słowa */
+[title="About me"] {
+    color: orange;
+}
+
+/* zawiera słowo */
+[title~="Container"] {
+    color: green; 
+}
+/* wystarczy ciąg znaków */
+[title*="ion"] {
+    color: turquoise; 
+}
+
+[title^="More"] {
+background-color: brown;
+}
+
+[title$="skills"] {
+background-color: navy;
+    
+}
+
+a[title*="e"] {
+    font-size: 2em;
+}
