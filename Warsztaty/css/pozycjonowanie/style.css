@@ -1,0 +1,25 @@
+.container {
+    height: 1000px;
+    width: 1000px;
+    background-color: lightgrey;
+    border: 20px solid darkslategrey;
+    position: relative;
+    }
+.box {
+        height: 50%;
+        width: 50%;
+        position: absolute;
+    }
+
+.bg-orange {
+    background-color: orange;
+    bottom: 0;
+    }
+.bg-lightgray {
+    background-color: lightgrey;
+    }
+.bg-white {
+    background-color: white;
+    top: 0;
+    right: 0;
+    }
