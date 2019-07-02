@@ -12,3 +12,7 @@ selektor id */
 .list-item{
     color: pink;
 }
+
+section a {
+        color: red;
+}
