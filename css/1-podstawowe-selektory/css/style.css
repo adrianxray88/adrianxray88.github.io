@@ -1,0 +1,41 @@
+/* selektory podstawowe */
+li {
+    color: darkorange;
+}
+
+/* selektor id */
+#first-list-item{
+    font-size: 32px;
+}
+
+/* selektor klasy */
+.list-item{
+    color: pink;
+}
+
+section a {
+     color: red;
+}
+/* selektor bezpoścredni */
+section > a{
+    color: green;
+}
+
+#first-list-item + li {
+    color: blue;
+}
+
+#first-ordered-item ~ li {
+    background-color: aqua;
+}
+
+/* selektor uniwersalny */
+
+* {
+    border: 2px lightgreen solid;
+    box-sizing: border-box;
+}
+/* slektor łącony - i to i to */
+ul.list-container {
+    background-color: chocolate
+}
