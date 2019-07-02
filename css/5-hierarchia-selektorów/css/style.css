@@ -1,0 +1,15 @@
+#main-heading {
+    color: green
+}
+
+.heading {
+    color: red;
+}
+
+h2 {
+    color: yellow;
+}
+
+* {
+    color: blue !important;
+}
