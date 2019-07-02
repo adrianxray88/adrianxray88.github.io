@@ -1,0 +1,8 @@
+.heading::before{
+    content: "*";
+    color: red
+}
+.heading::after{
+    content: "@";
+    color: green;
+}
