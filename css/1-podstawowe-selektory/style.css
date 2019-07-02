@@ -1,5 +1,14 @@
 /* selektory podstawowe */
 li {
     color: darkorange;
+}
+/* 
+selektor id */
+#first-item{
+    font-size: 32px;
+}
 
+/* selektor klasy */
+.list-item{
+    color: pink;
 }
