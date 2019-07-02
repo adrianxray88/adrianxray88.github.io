@@ -2,8 +2,8 @@
 li {
     color: darkorange;
 }
-/* 
-selektor id */
+
+/* selektor id */
 #first-item{
     font-size: 32px;
 }
@@ -15,4 +15,12 @@ selektor id */
 
 section a {
         color: red;
+}
+/* selektor bezpoścredni */
+section > a{
+    color: green
+}
+
+#first-list-item + li {
+    color: blue
 }
