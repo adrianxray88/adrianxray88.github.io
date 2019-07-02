@@ -32,3 +32,27 @@ button:hover {
     border: 3px solid red;
     outline: none;
 }
+
+/* Pseudoklasa potomstwa*/
+
+.list-item:first-child {
+    color: red;
+}
+.list-item:last-child {
+    color: yellow;
+}
+
+p:first-of-type {
+    color: brown;
+}
+
+.list-item:nth-of-type(5) {
+    color: green;
+}
+
+.list-item:nth-of-type(odd) {
+    background-color: gray;
+}
+.list-item:nth-of-type(3n+1) {
+    font-size: 32px;
+}
