@@ -1,0 +1,47 @@
+.par-first{
+    background-color: aqua;
+}
+.par-second {
+    background-color: brown;
+}
+.inline {
+    display: inline;
+}
+ul. {
+    font-size: 0;
+}
+.inline-block-item {
+    display: inline-block;
+    padding: 15px;
+    background-color: hotpink;
+    font-size: initial;
+}
+.box {
+    height: 50%;
+    width: 50%;
+    display: inline-block;
+    position: relative;
+}
+
+.violet {
+    border-radius: 50%;
+    height: 50%;
+    width: 50%;
+    background-color: violet;
+    position: absolute;
+    left: ;
+    right: ;
+    bottom: ;
+    top: ;
+    
+}
+
+.orange {
+    background-color: orange;
+}
+
+
+
+.grey {
+    background-color: grey;
+}
