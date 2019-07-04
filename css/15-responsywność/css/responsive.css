@@ -1,0 +1,20 @@
+/* definicja media querries
+@media - słowo klucz
+podajemy urządzenie
+operatory logiczne - łączenie właściwości media querries */
+@media all and (max-width: 1200px) {
+    .rwd {
+        background: green;
+    }
+}
+@media all and (max-width: 767px) {
+    .rwd {
+        background: yellow;
+    }
+}
+@media all and (max-width: 480px) {
+    .rwd {
+        background: blue;
+    }
+}
+
