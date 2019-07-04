@@ -1,0 +1,12 @@
+/* font-family: 'Open Sans', sans-serif; */
+.header {
+    font-family: 'Open Sans', sans-serif;
+    height: 70;
+    
+}
+.background {
+    background-image: url('C:\Users\lewan\Documents\GitHub\adrianxray88.github.io\Warsztaty\Portfolio\css\img');
+    background-position: cover;
+    position: relative;
+    height: 70px;
+}
