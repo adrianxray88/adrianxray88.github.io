@@ -1,0 +1,13 @@
+.background {
+    height: 750px;
+    /* background-color: #f00; */
+    /* background-image: url(https://ichef.bbci.co.uk/news/304/media/images/49371000/jpg/_49371747_lemmy.jpg);
+    background-repeat: no-repeat;
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(200, 200, 200, 0.6)), url(https://ichef.bbci.co.uk/news/304/media/images/49371000/jpg/_49371747_lemmy.jpg) */
+    /* background-position: center;
+    background-size: cover; */ 
+    background-image: url(https://ichef.bbci.co.uk/news/304/media/images/49371000/jpg/_49371747_lemmy.jpg) no repeat;
+    background-position: center;
+    background-size: cover;
+
+}
