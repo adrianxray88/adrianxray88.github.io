@@ -1,0 +1,14 @@
+.box {
+    height: 300px;
+    background-color: grey;
+    /* transition-property: background-color; domyślnie all
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out; domyślnie linear
+    transition-delay: 1s; */
+    transition: 0.4s;
+}
+
+.box:hover {
+    background-color: orange;
+
+}
