@@ -6,3 +6,9 @@ function zalogujDoKonsoli() {
 }
 // wywołanie funkcji - napisanie nazwy
 zalogujDoKonsoli();
+
+// funkcja parametrowa
+function odejmowanie(par1, par2) {
+    console.log(par1-par2);
+}
+odejmowanie(5, 3);
