@@ -1,23 +1,29 @@
-#gallery {
-    width: 80%;
-}
-@media all and (min-width: 992px) {
-    figure {
-        width: 32% ;
-     }
-}
-@media all and (max-width: 992px) {
-    figure {
-       width: 49% ;
-    }
-}
-@media all and (max-width: 767px) {
-    figure {
+@media all and (max-width: 768px) {
+    .about img {
         width: 100% ;
+     }
+     .contact form input {
+        flex-basis: 100%;
+    }
+     .photo {
+         flex-basis: 50%;
      }
 }
 @media all and (max-width: 480px) {
-    #gallery {
-        width: 100% ;
+    .main-nav ul, 
+    input[type=checkbox] {
+        display:none;
+    }
+    .photo {
+         flex-basis: 100%;
      }
-}
+    .main-nav label {
+        display:block;
+    }
+    .main-nav ul {
+        display: none;
+    }
+    input[type="checkbox"]:checked + ul{
+        display: flex;
+    }
+}  
