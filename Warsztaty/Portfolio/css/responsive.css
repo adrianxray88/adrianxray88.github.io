@@ -3,7 +3,7 @@
 }
 @media all and (min-width: 992px) {
     figure {
-        width: 32% ;
+        /* width: 32% ;  */
      }
 }
 @media all and (max-width: 992px) {
