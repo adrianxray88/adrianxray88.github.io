@@ -1,12 +1,211 @@
 /* font-family: 'Open Sans', sans-serif; */
-.header {
+body{
     font-family: 'Open Sans', sans-serif;
-    height: 70;
-    
+    margin: 0;
 }
-.background {
-    background-image: url('C:\Users\lewan\Documents\GitHub\adrianxray88.github.io\Warsztaty\Portfolio\css\img');
-    background-position: cover;
-    position: relative;
-    height: 70px;
+header {
+    height: 70vh;
+    position: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: url('../img/header.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
+.header h1{
+    color: #007bff;
+    text-transform: uppercase;
+    font-size: 4.2em;
+}
+.header h1::after {
+    content: '';
+    display: block;
+    width: 70px;
+    background-color: #007bff;
+    height: 2px;
+    margin: auto;
+}
+hr {
+    width: 70px;
+    border-color: #007bff;
+    margin: 0 auto;
+}
+.main-nav label {
+    display: block;
+}
+.header .span {
+    margin: 0.5px;
+    color: #007bff;
+}
+.header .more {
+    border: 1px solid #007bff;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+    margin-top: 10px;
+    display: inline-block;
+}
+.header .more:hover {
+    background-color: #fff;
+    color: #007bff;
+}
+.main-nav {
+    position: sticky;
+    top: 0;
+    background-color: #007bff;
+    padding: 5px;
+}
+.main-nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.main-nav ul li {
+    margin: 0px 10px;
+}
+.main-nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    display: inline-block;
+    text-transform: uppercase;
+    transition: all 0.4s;
+}
+.main-nav ul li a:hover {
+    background-color: #fff;
+    color: #007bff;
+}
+
+.about {
+    padding: 120px;
+    text-align: center;
+}
+.about img {
+    border-radius: 50%;
+}
+.about p {
+    width: 70%;
+    margin: 10px auto;
+}
+.about .my-portfolio {
+    border: 1px solid #007bff;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    transition: 0.4s;
+    margin-top: 10px;
+    display: inline-block;
+}
+.about .my-portfolio:hover {
+    background-color: #fff;
+    color: #007bff;
+.portfolio {
+
+}
+.container {
+    display: flex;
+    flex-wrap: wrap:
+}
+
+.photo {
+    height: 250px;
+    flex-basis: 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.photo-1 {
+    background-image: url('C:\Users\lewan\Documents\GitHub\adrianxray88.github.io\Warsztaty\Portfolio\img\portfolio\photo-1.jpg');
+}
+.photo-2 {
+    background-image: url('C:\Users\lewan\Documents\GitHub\adrianxray88.github.io\Warsztaty\Portfolio\img\portfolio\photo-2.jpg');
+}
+.photo-3 {
+    background-image: url('img/portfolio/photo-2.jpg');
+}
+.photo-4 {
+    background-image: url('img/portfolio/photo-4.jpg');
+}
+.mask {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    opacity: 0;
+    transition: all 0.4s;
+}
+. p
+
+hr {
+    width: 70px;
+    border-color: #007bff;
+
+#gallery {
+	width: 1024px;
+	margin: 0 auto;
+    text-align: center;
+    background-color: lightgray;
+}
+
+figure {
+	display: inline-block;
+	width: 338px;
+	margin: 0;
+}
+
+figure figcaption {
+	text-align: center;
+}
+
+figure img{
+    width: 100%;
+    transition: all;
+    transition-property: color;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 1s;
+}
+figure img:hover {
+    color: #007bff;
+}
+.box-model {
+    background-color: gray
+}
+/* PORTFOLIO END */
+.contact {
+    text-align: center;
+}
+.contact form {
+    width: 50%;
+    margin: 50px auto;
+    display: flex;
+    flex-basis: 49%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact form input {
+    flex-basis: 49%;
+}
+.contact form textarea{
+    flex-basis: 49%;
+}
+.contact form input,
+contact form textarea {
+    padding: 10 px;
+    margin-bottom: 10px;
+}
+input[type=submit] {
+    background-color: transparent;
+    margin: auto;
+}
+.social-div
