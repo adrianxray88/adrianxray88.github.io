@@ -1,7 +1,7 @@
 let btn = document.getElementsByClassName('btn')[0];
 let mainNav = document.getElementsByClassName('main-nav')[0];
 
-btn.addEventListener('click', () => {
+btn.addEventListener('click', (e) => {
     e.stopPropagation();
     mainNav.classList.toggle('toggled');
 });
@@ -14,7 +14,7 @@ mainNav.addEventListener('click', (e) => {
     e.stopPropagation();
 });
 
-let nodeLista = document.querrySelectorAll('.list-item a');
+let nodeLista = document.querySelectorAll('.list-item a');
 
 for(let i = 0; i < nodeLista.length; i++){
     console.log(nodeLista[i]);
