@@ -1,6 +1,6 @@
 let tablica = [1, 20, 10, 59, 214, 123];
 
-for(let i = 0; i <)
+// for(let i = 0; i <)
 
 let nazwaObiektu = {
     nazwa: 'obiekt',
