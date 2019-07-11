@@ -1,8 +1,9 @@
 
-$(function() {
+$(function () {
     let form = $('#formularz');
     let pizza = $('#pizza');
     let price = $('#price');
+    let firstname = $('#Imię');
 
     let prices = [
         0,
@@ -12,22 +13,21 @@ $(function() {
         22,
         5
     ];
-    let pizzas = [
-        name
-    ]
-    pizza.change(function() {
-        let curPrice = $("select#pizza option:selected" ).attr
-        ("price");
-        price.text(curPrice);
-        console.log('currentPizza')
+    // let pizzas = [
+    //     name
+    // ]
+    pizza.change(function () {
+        let curPrice = $(this).val();
+        price.text(prices[curPrice]);
+        // console.log('currentPizza')
     });
-    formularz.submit(function() {
+
+    form.submit(function () {
 
         if (firstname.val() == "") {
-        console.log("wyświetl błędy");
-        return false; 
+            console.log("wyświetl błędy");
+            return false;
         }
     });
 
-     
 });
