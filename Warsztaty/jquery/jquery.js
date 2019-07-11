@@ -1,4 +1,6 @@
+
 $(function() {
+    let form = $('#formularz');
     let pizza = $('#pizza');
     let price = $('#price');
 
@@ -10,13 +12,22 @@ $(function() {
         22,
         5
     ];
-
+    let pizzas = [
+        name
+    ]
     pizza.change(function() {
         let curPrice = $("select#pizza option:selected" ).attr
         ("price");
         price.text(curPrice);
         console.log('currentPizza')
     });
+    formularz.submit(function() {
 
+        if (firstname.val() == "") {
+        console.log("wyświetl błędy");
+        return false; 
+        }
+    });
 
+     
 });
