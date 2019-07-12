@@ -1,0 +1,16 @@
+- tworzę button
+pobieram button do zmiennej
+tworzę funkcję getdata w której mam console.log(getdata działa)
+pod przycisk podpinam się pod klika = addeventlistener('click), (getdata)
+spr czy działaw funkcji getdata pobieram dane za pomocza fetch z https://jsonplaceholder.typicode.com/users/1
+dopinam paragraf do strony
+
+button
+podpinam jquery i sprawdzam
+Document ready - sprawdzam czy zadomowiła się ztrona
+button do zmiennej
+zdarzenie click i um. console.log
+czydziała
+w gedtdata obieram fetch 
+tworze <p> i wstawiam id, nazwe adr url
+dop. paragraf do strony
