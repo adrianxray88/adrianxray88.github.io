@@ -1,10 +1,14 @@
-let przycisk = document.getElementById(
-    console.log('przycisk');
+let przycisk = document.getElementById('btn')
+    console.log('btn');
     addEventListener('click');
-);
+
 function getData (
     
-        console.log('działa')
-    
-
+    console.log('działa');
+)
+fetch('https://jsonplaceholder.typicode.com/users/1');
+    .then(response =>response.json())
+    .then(response=>{
+        
+    });
 
