@@ -3,7 +3,7 @@ $(function () {
     let form = $('#formularz');
     let pizza = $('#pizza');
     let price = $('#price');
-    let firstname = $('#Imię');
+    let firstname = $('#imie');
 
     let prices = [
         0,
