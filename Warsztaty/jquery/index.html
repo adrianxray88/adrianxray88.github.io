@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
     <form id="formularz" method="POST" action="">
-        <input type="text" name="Imię" placeholder="Imię">
+        <input type="text" name="Imię" placeholder="Imię" id="imie">
         <br>
         <input type="text" name="Nazwisko" placeholder="Nazwisko">
         <br>
@@ -20,9 +22,9 @@
         <br>
         <input type="text" name="poczta" placeholder="kod pocztowy">
         <br>
-        
+
         <select name="wybor" id="pizza">
-            <option value="0">Wybierz</option>            
+            <option value="0">Wybierz</option>
             <option value="1">Margharitta</option>
             <option value="2">Capriciosa</option>
             <option value="3">Zbója</option>
@@ -30,9 +32,9 @@
             <option value="5">Studencka</option>
         </select>
         <span id="price">0 PLN</span>
-        <br>        
+        <br>
         <input type="checkbox" id="sos1" name="sos">
-        <label for="sos1">pomidorowy</label>  <br>      
+        <label for="sos1">pomidorowy</label> <br>
         <input type="checkbox" id="sos2" name="sos">
         <label for="sos2">czosnkowy</label><br>
         <input type="checkbox" id="agreement" name="agreement">
@@ -41,6 +43,7 @@
         <input type="submit" value="Zamów" class="button">
     </form>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="jquery.js"></script>  
+    <script src="jquery.js"></script>
 </body>
+
 </html>
