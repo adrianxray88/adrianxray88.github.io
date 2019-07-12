@@ -13,13 +13,10 @@ $(function () {
         22,
         5
     ];
-    // let pizzas = [
-    //     name
-    // ]
+    
     pizza.change(function () {
         let curPrice = $(this).val();
         price.text(prices[curPrice]);
-        // console.log('currentPizza')
     });
 
     form.submit(function () {
@@ -29,5 +26,19 @@ $(function () {
             return false;
         }
     });
+    formPzzaOrder.submit(function() {
+        
+        console.log("działa");
+        return false;
+    });
+    if ( $.trim(lastName.val))
+        ErrorsArray.push = "Uzupełnij pole: Kod Pocztowy"
+    if ( errorsArray.length !=0 ) {
 
+        errorsArray.array.forEach(element) => {
+            let LiError = "<li>" + element +"</li>"
+        });
+    if ( AudioProcessingEvent.is(':checked') == false) {
+        errorsArray.push("Musisz wyrazić zgode na przetwarzanie danych osobowych");
+    }
 });
