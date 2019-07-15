@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>BMI</title>
 </head>
 <body>
+    <h2>Oblicz twój BOdy mass index</h2>
+    <h3>Wzrór na BMI to masa(kg)/wzrost(m)<sup>2</sup></h3>
+    <form action="" class="bmi-form">
+        <input type="text" id="bmi-name" name="name" placeholder="Imię"><br>
+        <input type="number" id="bmi-weight" name="weight" min="1" placeholder="waga w kg"><br>
+        <input type="number" id="bmi-height" name="bmi-height" min="1" placeholder="wzrost w cm"><br>  
+        <button>Oblicz BMI</button>          
+    </form>
+    <div id="bmi-result"></div>
     <script src="js/main.js"></script>
 </body>
 </html>
